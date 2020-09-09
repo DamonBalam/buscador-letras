@@ -26,7 +26,7 @@ function App() {
             setInformacion(informacion.data.artists[0]);
         }
         consultarAPILetra();
-    }, [busquedaLetra,informacion])
+    }, [busquedaLetra])
     return (
         <Fragment>
             <Formulario setBusquedaLetra={setBusquedaLetra}/>
